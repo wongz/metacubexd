@@ -123,6 +123,5 @@ export default defineNuxtConfig({
     },
     plugins: [tailwindcss()],
   },
-
   compatibilityDate: 'latest',
 })
