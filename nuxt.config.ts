@@ -124,11 +124,5 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
 
-  // Disable app manifest to avoid 404 errors for _nuxt/builds/meta/*.json
-  // in non-standard browsers (e.g. VIA on Android). Not needed for CSR-only apps.
-  experimental: {
-    appManifest: false,
-  },
-
   compatibilityDate: 'latest',
 })
